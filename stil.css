@@ -1,0 +1,85 @@
+body {
+    background-color:red; 
+    font-family:Verdana;  
+    }
+header {
+	position:relative;
+    height: 70px;
+    width:auto;
+    background-color: white;
+    overflow:hidden;    
+	
+    }
+
+main { 
+    margin-left:0;
+    margin-top:0;
+    height:auto;
+    width:auto;
+    background-color: whitesmoke;
+    }
+
+footer {
+    height:50px;
+    width:auto;
+    background-color: blue;    
+    }
+	main,footer {
+		padding:10px;
+	}
+	
+	#wrapper{
+	margin-top:50px;
+	height:auto;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;	
+	border-style:solid;
+	box-shadow:5px 5px 5px black;
+	border-radius: 3px;
+	}
+	figure>img,video{
+	height:200px;
+    width:250px	
+	}
+header>#logo{
+	position:absolute;
+	width:60px;
+	height:60px;
+	left:10px;
+	top:10px;
+}
+header>#logotekst{
+	color:black;
+	
+	
+	margin-top:15px;
+	text-align:center;
+}
+nav {
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	
+}
+   nav ul {
+	   list-style:none;
+	   overflow:hidden;
+	   margin:0;
+	   width:auto;
+   }
+   
+   nav li{
+	   float:left;
+	   
+   }
+nav li a {
+	text-decoration:none;
+	padding:10px;
+	color:black;
+	
+	}
+	nav li a:hover {
+		color: red;
+	}
